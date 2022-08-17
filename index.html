@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- viewport: specify how this html page is displayed in devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Open Graph Protocol -->
+    <!-- <meta property="og:title" content="A brief description">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="place-this-url-here">
+    <meta property="og:description" content="A brief description">
+    <meta property="og:image" content="./../res/japanese-curry.jpg"> -->
+
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="header">
+            <img id='nomnomation-logo' src="./res/nomnomation-logo.png" alt="Nomnomation logo.">
+            <h1>Nomnomation</h1>
+        </div>
+        <div class="navbar">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Promotion</a></li>
+                <li><a href="">Menu</a></li>
+                <li><a href="">Booking/Reservations</a></li>
+                <li><a href="">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="main">
+            <div class="main-article">
+                <article>
+                    <video id="feature-video" controls></video>
+                </article>
+            </div>
+            <div class="sub-article">
+                <article id="sub-1">
+                    <h1>Promotion</h1>
+                    <div id="promo-content">
+                        <a href=""><img id="promo-image" src="./res/japanese-curry.jpg"></a>
+                    </div>
+                </article>
+
+                <article id="sub-2">
+                    <h1>Menu</h1>
+                    <div id="menu-list">
+                        
+                        <table id="menu-list">
+                            <tr>
+                                <td id="meal-name">Jim Curry with Rice <span>Launch Promo!</span></td>
+                                <td id="meal-price">$6</td>
+                            </tr>
+                            <tr>
+                                <td id="meal-description">Try our sweet, aromatic curry signature accompanied by
+                                    lightly-buttered fragrant rice</td>
+                            </tr>
+                            <tr>
+                                <td id="meal-name">Honey Wings featuring Red Hot Chilli Pepper</td>
+                                <td id="meal-price">$8</td>
+                            </tr>
+                            <tr>
+                                <td id="meal-description">Tender honey wings featuring our secret family spicy sauce
+                                </td>
+                            </tr>
+                            <tr>
+                                <td id="meal-name">The Who? The Burger.</td>
+                                <td id="meal-price">$5</td>
+                            </tr>
+                            <tr>
+                                <td id="meal-description">Introducing our stacked burger with caramelized onions, fresh
+                                    tomatos and onions, and our secret chem (mayo) to complete it all</td>
+                            </tr>
+                            <tr>
+                                <td id="meal-name">Limp Brisket</td>
+                                <td id="meal-price">$8</td>
+                            </tr>
+                            <tr>
+                                <td id="meal-description">Keep rolling your tongue with our succulent, hickory-burned,
+                                    honey BBQ glazed, briskets</td>
+                            </tr>
+                        </table>
+                        
+                    </div>
+                </article>
+
+                <article id="sub-3">
+                    <h1>Booking/Reservations</h1>
+                    <div id="form-section">
+                        <form method="post">
+                            <label for="reservation-name">Name</label>
+                            <input type="text" id="reservation-name" minlength="1" required>
+                            <label for="reservation-email" required>Email</label>
+                            <input type="email" id="reservation-email">
+                            <label for="reservation-tel" required>Contact</label>
+                            <input type="tel" id="reservation-tel">
+                            <label for="reservation-date" required>Booking Dates</label>
+                            <input type="datetime-local" id="reservation-date">
+                        </form>
+                        <br>
+                        <button type="submit">Book Now</button>
+                    </div>
+                </article>
+
+                <article id="sub-4">
+                    <h1>Contact Us</h1>
+                    <div id="contacts">
+                        <ul>
+                            <li>+123 456 789</li>
+                            <li><a href="#" class="fa fa-instagram"></a> @nomnomation </li>
+                            <li><a href="#" class="fa fa-facebook"></a>  Nomnomation </li>
+                            <li>enquiries@nomnomation.com</li>
+                        </ul>
+                    </div>
+                </article>
+
+            </div>
+        </div>
+
+        <div class="footer">
+            Nomnomation© 2022
+        </div>
+        
+    </div>
+
+
+    <script src="index.js" type="module">
+    </script>
+
+</body>
+
+</html>
